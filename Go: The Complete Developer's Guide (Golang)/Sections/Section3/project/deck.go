@@ -10,7 +10,7 @@ import (
 )
 
 // Create a new type of 'deck'.
-// Which is a slice of strings.
+// Which is a slice of string.
 type deck []string
 
 // Function newDeck of type deck defines suits and values and combines them together using a double for loop.

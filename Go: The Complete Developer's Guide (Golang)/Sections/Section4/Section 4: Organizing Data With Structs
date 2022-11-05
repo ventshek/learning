@@ -1,0 +1,56 @@
+Struct is short for structure. A collection of different properties that are related together 
+Similar to a dictionary in python. 
+
+Types and their Zero Values.
+
+string -- ""
+int -- 0 
+float -- 0 
+bool -- false
+
+RAM
+
+Each address can store a value. 
+
+GO is a pass by value language, this means that whenever a value is passed into a function GO will take that value and put it inside a new memory address, making a copy.
+
+&variable = Give me the memory address of the value this variable is pointing at. 
+
+*pointer = Give me the value this memory address is pointing at. 
+
+Turn address into value with *address.
+
+Turn value into address with &value.
+
+Arrays = Primitive data structure, can't be resized, rarely used directly.
+
+Slices = Can grow and shrink, used 99% of the time for lists of elements. 
+
+
+When a slice is created eg:
+mySlice := []string{"Hi", "there"}
+
+A slice is created which includes a ptr to head, capacity and length. 
+
+An array is also created. 
+
+When referencing MySlice the data structure is reffered to, not the array.
+
+Even though the slice data structure is coppied it is still pointing to the original array in memory. 
+
+Use pointers to change = {
+    int 
+    float 
+    string 
+    bool
+    structs
+}
+
+Reference type?
+Dont worry about pointers = {
+    Slices
+    maps 
+    channels 
+    pointers 
+    functions
+}

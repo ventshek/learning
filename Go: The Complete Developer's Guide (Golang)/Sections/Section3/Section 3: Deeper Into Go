@@ -30,3 +30,4 @@ fruits[startindexIncluding : upToNotIncluding]
 fruits[0:2] = "apple" "banana"
 
 
+To test a GO program create a file with the name + _test.go 
