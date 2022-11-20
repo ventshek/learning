@@ -1,0 +1,27 @@
+Maps are similar to structs. 
+Maps are like dictionaries in python.
+
+Both they keys and values all have to be the same type
+
+Map = {
+    All keys must be the same type
+    Use to represent a collection of related properties.
+    All values must be the same type.
+    Don't need to know all the keys at compile time.
+    Keys are indexed we can iterate over them.
+    Reference type!
+}
+
+Struct = {
+    Values can be of different type.
+    You need to know all the different fields at compile time. 
+    Keys don't support indexing.
+    Use to reprecent a thing with lots of differenct properties. 
+    Value Type!
+}
+
+
+
+
+
+
