@@ -1,0 +1,33 @@
+newDeck = Creates a list of playing cards. Essentially an array of strings. 
+print = Log out the contents of a deck of cards.
+shuffle = Shuffles all the cards in the deck.
+deal = Create a 'hand' of cards.
+saveToFile = Save a list of cards to a file on the local machine.
+newDeckFromFile = Load a list of cards from the local machine.
+
+
+bool = true/false.
+string = Sequence of characters.
+int = integer.
+float64 = number with decimal
+
+:= only used when defining a new variable
+
+Variables can be initialized outside of the function they are used in so long as they are defined there also.
+
+Every function that returns a value must indicate what type of value it is returning.
+
+Array = Fixed length list of things. 
+Slice = An array that can grow or shrink.
+
+GO is not an OO programming language.
+
+Slices are 0 indexed
+fruits = "apple" "banana" "grapes"
+fruits[0] = "apple"
+fruits[1] = "banana"
+fruits[startindexIncluding : upToNotIncluding]
+fruits[0:2] = "apple" "banana"
+
+
+To test a GO program create a file with the name + _test.go 

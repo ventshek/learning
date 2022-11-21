@@ -1,0 +1,43 @@
+
+Two chatbots.
+
+type englishBot struct 
+func (englishBot) getGreeting() string
+func printGreeting(eb englishBot)
+
+type spanishBot struct 
+func (spanishBot) getGreeting() string
+func printGreeting(sb spanishBot)
+
+Concrete Type = {
+    map
+    struct
+    int 
+    string
+    englishBot
+}
+
+Interface Type = {
+    bot
+}
+
+Interfaces are not generic types.
+
+Interfaces are implicit. 
+
+Interfaces are a contract to help us manage types.
+
+Interfaces are tough. Step #1 is understanding how to read them.
+
+Response struct {
+    status => string
+    StatusCode => int
+    Body => io.ReadCloser
+}
+
+io.ReadCloser Interface = {
+    Read = Read([]byte) (int,error)
+    Closer = Close() (error)
+}
+
+The body variable can have any value attached to it so long as it fullfills the ReadCloser interface.
