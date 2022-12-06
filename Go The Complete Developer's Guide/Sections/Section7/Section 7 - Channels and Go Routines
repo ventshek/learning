@@ -40,3 +40,4 @@ fmt.Println(<- channel) Wait for a value to be sent into the channel. When we ge
 
 Recieving messages from a channel is a blocking ling of code.
 
+The purpose of a channel is to communicate between different go routines. 

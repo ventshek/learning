@@ -14,12 +14,6 @@ func main() {
 	//fmt.Println(colors)
 	printMap(colors)
 
-
-
-
-
-
-
 }
 
 func printMap(c map[string]string) {

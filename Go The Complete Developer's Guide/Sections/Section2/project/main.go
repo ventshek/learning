@@ -1,5 +1,5 @@
 /* Package == Project == Workspace */
-/* Main = The function named main is automaticall run when built. */
+/* Main = The function named main is automatically run when built. */
 package main
 
 /* Give my package main access to all the code in "fmt". This is a standard lib but Reusable Packages can be imported also. */
