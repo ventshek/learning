@@ -1,0 +1,37 @@
+# Literals are values typed into source code. 
+
+print "Hello, world!\n";    # "Hello, world\n" is a string literal.
+
+print 7;                    # "7" is a number literal.
+
+# A Scalar is one piece of data in Perl, it can be acted on with operators.
+# Aditionally it can be stored and read or written to a file.
+# A Scalar can come in two forms, either numbers or strings. 
+
+Examples of numbers (
+    100             # Decimal number.
+    -5293
+    93e20           # 'e' means that the number to the left is to the power of the right.
+    7_393_486_023   # _ can be used to make numbers easier to read. 
+    12324.21        # Floating point number.
+    0144            # Octal number.
+    0x64            # Hex number.
+    0b1100100       # Binary number.
+)
+
+print "Binary 0b1100100 = ", 0b1100100, "\n";
+
+Examples of operators (
+    +   # Addition.
+    -   # Subtraction.
+    *   # Multiplication.
+    /   # Division.
+    **  # Exponentiation, to the power of.
+    %   # Modulus, the remainder of a division. 
+)
+
+# 
+
+Examples of strings (
+
+)
