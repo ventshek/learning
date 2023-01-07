@@ -30,8 +30,35 @@ Examples of operators (
     %   # Modulus, the remainder of a division. 
 )
 
-# 
+# String is 0 or more characters surrounded by "" or ''.
 
 Examples of strings (
+    print "";                   # An empty string. 
+    print "Conc"."atenates\n";  # A '.' between two stings joins them.
+    print "Slick" x 7;          # This would print "Slick" 7 times. 
+    print 'abc\n';              # Would print out \n literally.
+    
+)
 
+# Examples of backslash escape sequences (
+    \n                  # Newline.
+    \r                  # Return. 
+    \t                  # Tab.
+    \f                  # Formfeed.
+    \b                  # Backspace.
+    \a                  # Bell.
+    \e                  # Escape (ASCII escape character).
+    \007                # Any octal ASCII value (007=bell).
+    \x7f                # Any two-digit hex ASCII value (7f=delete).
+    \x{2744}            # Any hes Unicode point (U+2744=snowflake).
+    \N{CHARACTER NAME}  # Any Unicode code point, by name. 
+    \Cc                 # A "control" character (here, Ctrl-C).
+    \\                  # Bachslash.
+    \"                  # Doube quote.
+    \l                  # Lowercase nest letter.
+    \L                  # Lowercase all following letters until \E.
+    \u                  # Uppercase next letter.
+    \U                  # Uppercase all following letters until \E. 
+    \Q                  # Quote nonword characters by adding a backslash until \E.
+    \E                  # End \L, \U or \Q.
 )
